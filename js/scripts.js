@@ -1,6 +1,13 @@
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#walrus-showing").fadeToggle();
-    $("#walrus-hidden").fadeToggle();
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $("#clickable2").click(function() {
+    $("#text-showing").toggle();
+    $("#text-hidden").toggle();
   });
 });
