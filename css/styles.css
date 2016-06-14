@@ -23,3 +23,39 @@
 #clickable2:hover {
   text-decoration: underline;
 }
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.white-text {
+  color: white;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.black-text {
+  color: black;
+}
+
+#highlite {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: green;
+
+
+}
