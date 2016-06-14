@@ -6,7 +6,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable2").click(function() {
     $("#text-showing").toggle();
     $("#text-hidden").toggle();
   });
@@ -44,4 +44,10 @@ $(document).ready(function() {
       $("body").addClass("white-background");
       $("body").addClass("black-text");
      });
+     $(document).ready(function() {
+       $(".clickable3").click(function() {
+       $("#itext-normal").toggle();
+      $("#itext-highlited").toggle();
+      });
+    });
   });

@@ -15,12 +15,25 @@
   display: none;
 }
 
-#clickable2 {
+#itext-showing {
+  display: none;
+}
+
+.clickable3 {
   cursor: pointer;
   color: #0088cc;
 }
 
-#clickable2:hover {
+.clickable3:hover {
+  text-decoration: underline;
+}
+
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable2:hover {
   text-decoration: underline;
 }
 
@@ -52,10 +65,17 @@
   color: black;
 }
 
-#highlite {
+#itext-highlited {
   border-style: dotted;
   border-width: 5px;
   border-color: green;
+}
+
+#itext-normal {
+  border-style: none;
+  border-width: none;
+  border-color: none;
+}
 
 
 }
